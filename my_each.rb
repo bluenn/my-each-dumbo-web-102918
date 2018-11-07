@@ -1,4 +1,4 @@
-def my_each(collection) # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here
   i = 0
 
@@ -6,5 +6,5 @@ def my_each(collection) # put argument(s) here
     yield array[i]
     i = i + 1
   end
-  
+  array
 end
